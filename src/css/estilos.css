@@ -1,0 +1,93 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .logo-img{
+    padding: 20px;
+    max-width: 240px;
+    margin: 30px 0 0 40px;  
+}
+
+.container{
+    display: flex;
+
+}
+
+.container .mockups .mockups-img{
+    width: 650px;
+    margin: 55px 0 0 65px;
+}
+
+.container .info{
+    flex-direction: column;
+}
+
+.container .info .title{
+    color: white;
+    font-size: 3.7rem;
+    font-weight: 500;
+    padding: 20px;
+    margin: 73px 0 0 30px;
+}
+
+.container .info p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0 52px 0 55px
+}
+
+.container .info .btn{
+    background-color:white;
+    width: 190px;
+    height: 55px;
+    border-radius: 50px;
+    margin: 18px 0 0 50px;
+}
+
+.container .info .btn .btn-text{
+    color:  hsl(257, 40%, 49%);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.container .info .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:white
+}
+
+.container .info .btn .btn-text:hover{
+    color: white
+}
+
+.footer .social{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin: 14px 265px 0 0;
+}
+
+.footer .social a{
+    color: white;
+}
+
+.footer .social i{
+    display: inline-block;
+    font-size: 16px;
+    padding: 1rem;
+    border: solid white 1px;
+    border-radius: 50%;
+    width: 35px;
+    margin: 3px 0 0 5px;
+}
+
+.footer .social a:hover{
+    color:  hsl(300, 69%, 71%);
+}

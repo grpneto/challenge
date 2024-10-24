@@ -1,0 +1,77 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+@media (max-width: 1024px){
+    .footer .social{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:375px){
+
+    body{
+        background-image: url(../images/bg-mobile.svg) ;
+
+    }
+
+    .header .logo-img{
+        padding: 10px;
+        max-width: 115px;
+        margin: 14px 0 0 15px;  
+    }
+
+    .container{
+        max-width: 375px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container .mockups .mockups-img{
+        width: 230px;
+        margin: 30px 0 0 50px;
+        padding-bottom: 10px;
+    }
+
+    .container .info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .info .title{
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-right: 98px;
+        line-height: 27px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .info p{
+        color: white;
+        max-width: 63%;
+        font-size: 1.1rem;
+        line-height: 18px;
+        text-align: center;
+        margin: 12px 10px 0 0px;
+        margin-right: 50px; 
+    }
+
+    .container .info .btn{
+        width: 152px;
+        height: 30px;
+        border-radius: 15px;
+        margin: 15px 0 0 65px;
+    }
+
+    .container .info .btn .btn-text{
+        font-size: 9px;
+    }
+
+    .footer .social{
+        padding: 10px 10px;
+        font-size: 16px;
+    }
